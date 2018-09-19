@@ -3,3 +3,12 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.loginForm {
+  display: block;
+}
+
+.sendInput {
+  margin-top: 10px;
+  background-color: green;
+}
