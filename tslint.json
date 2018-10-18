@@ -10,7 +10,8 @@
     "exclude": [
       "node_modules/**/*.ts",
       "**/*.json",
-      "src/registerServiceWorker.ts"
+      "src/registerServiceWorker.ts",
+      "src/**/*.tsx"
     ]
   },
   "rulesDirectory": [
