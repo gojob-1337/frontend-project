@@ -35,11 +35,11 @@ You can find the visual you'll have to create for the `Authentication page` righ
 
 ### API
 
-In order to be able to login into something, you'll surely need an API to respond to your queries 😛. We have an specially emitted API, with the `/foc/login` - this is the one (obviously) that you'll have to POST to in order to login.
+In order to be able to login into something, you'll surely need an API to respond to your queries 😛. We have an specially emitted API, with the `/fog/login/authenticate` - this is the one that you'll have to POST to in order to login.
 
-You'll find the [Swagger](https://swagger.io/) here - [`https://gojob-api-review-foc-api-li-4ylolh.gojob.tech/docs/`](https://gojob-api-review-foc-api-li-4ylolh.gojob.tech/docs/).
+You'll find the [Swagger](https://swagger.io/) here - [`https://test-front-api.gojob.tech/docs/`](https://test-front-api.gojob.tech/docs/).
 
- - [REQUIRED] You must be able to log in to `/foc/login` with credentials you've received by email. 
+ - [REQUIRED] You must be able to log in to `/fog/login/authenticate` with credentials you've received by email. 
  - [REQUIRED] You must display an error message if something goes wrong. The display and visuals of the said message is up to you.
  - [REQUIRED] You must store and retrieve at least the `authentication token` (`res.auth.token`) value in browser's persistent storage in order to create a persistent connection.
 
