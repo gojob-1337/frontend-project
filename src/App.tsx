@@ -8,6 +8,7 @@ import { hot } from 'react-hot-loader';
 import './theme/css-baseline';
 
 import Typography from './components/Typography';
+import LoginForm from './components/LoginForm/LoginForm';
 
 class App extends React.Component {
   render() {
@@ -23,9 +24,9 @@ class App extends React.Component {
         <Typography style={{ position: 'absolute', left: '1em', top: '1em' }} variant="headline2">
           gojob
         </Typography>
-        <Typography color="primary" variant="main-title" align="center">
-          Happy coding! ♥️
-        </Typography>
+
+        <LoginForm />
+        
       </div>
     );
   }
