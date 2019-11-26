@@ -1,10 +1,22 @@
 /**
  * Definition of application state
  */
-export type State = {};
+export interface IState {
+    email?: string;
+    isAuth: boolean;
+    isPending: boolean;
+    loginSuccess: boolean;
+    loginError: boolean;
+    message?: string;
+};
 /**
  * Applications default state
  */
-const defaultState: State = {};
-
-export default defaultState;
+export const defaultState: IState = {
+    email: '',
+    isAuth: false,
+    isPending: false,
+    loginSuccess: false,
+    loginError: false,
+    message: ''
+};
